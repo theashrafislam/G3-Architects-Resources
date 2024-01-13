@@ -71,7 +71,7 @@ nav ul li a {
 
 }
 
-.bannar img{
+.bannar img {
     margin-top: 50px;
     width: 100%;
 }
@@ -79,86 +79,137 @@ nav ul li a {
 
 /* END Header Style  */
 
-main{
+main {
     max-width: 1140px;
     margin: 70px auto;
 }
 
-.teams-container{
+.teams-container {
     display: flex;
     align-items: center;
 }
 
 
-.teams-img-content{
+.teams-img-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
-.teams-text-content{
+.teams-text-content {
     padding: 0 70px;
 }
-.quick-list{
+
+.quick-list {
     font-size: 3rem;
     color: #727272;
     font-size: 600;
 }
-.of-our{
+
+.of-our {
     color: #131313;
     font-weight: 700;
     font-size: 3rem;
 }
-.text-features{
+
+.text-features {
     color: #FF900E;
     font-weight: 700;
     font-size: 3rem;
 }
-.teams-description{
+
+.teams-description {
     line-height: 26px;
-    color: 
-    #727272;
+    color:
+        #727272;
 }
 
 
 
-.facts-title{
+.facts-title {
     color: #131313;
     font-size: 3rem;
     font-weight: 700;
 }
 
-.facts-description{
+.facts-description {
     color: #727272;
     line-height: 26px;
     width: 542px;
 }
 
 
-.fact-card-container{
+.fact-card-container {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
 }
-.fact-card-container .card{
+
+.fact-card-container .card {
     text-align: center;
     border-radius: 8px;
     border: 1px solid #FF900E;
     padding: 20px;
 }
 
-.card-heading{
+.card-heading {
     font-weight: 600;
     font-size: 3rem;
     color: #424242;
     margin: 0 0;
 }
-.card-text{
+
+.card-text {
     color: #424242;
     font-size: 1.25rem;
     font-weight: 600;
     margin: 10px 0;
 }
+
+.sponspors {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sponspors-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.sponspors-description {
+    line-height: 26px;
+}
+
+.sponspors-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.sponspors-img-container img {
+    width: 166px;
+}
+
+
+.footer {
+    max-width: 1140px;
+    height: 100px;
+    margin: 70px auto;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-description{
+    color: #424242;
+    font-size: 1.25rem;
+}
+
+
 
 
 
@@ -167,57 +218,83 @@ main{
 
 /* Responsive Styles  */
 @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 20px;
     }
-    .bannar-title{
+
+    .bannar-title {
         font-size: 3.5rem;
     }
-    nav, .teams-container{
+
+    nav,
+    .teams-container {
         flex-direction: column;
     }
-    .teams-img-content{
+
+    .teams-img-content {
         grid-template-columns: 1fr;
     }
-    .teams-text-content{
+
+    .teams-text-content {
         padding: 25px;
     }
-    .facts-title{
+
+    .facts-title {
         width: 90%;
         margin: 0 auto;
     }
-    .facts-description{
+
+    .facts-description {
         width: 90%;
         margin: 0 auto;
     }
-    .fact-card-container{
+
+    .fact-card-container {
         flex-direction: column;
     }
-    .card{
+
+    .card {
         margin-bottom: 10px;
     }
-    
+
+    .sponspors-img-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-description{
+        padding: 15px;
+    }
+
 }
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    header{
+    header {
         padding: 50px;
     }
-    .teams-container{
+
+    .teams-container {
         flex-direction: column;
     }
-    .facts-title{
+
+    .facts-title {
         width: 84%;
         margin: 0 auto;
         margin-top: 20px;
     }
-    .facts-description{
+
+    .facts-description {
         width: 84%;
         margin: 0 auto;
     }
-    .fact-card-container{
+
+    .fact-card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
-}
 
+    .sponspors-img-container {
+        display: grid;
+        grid-template-columns: repeat(1);
+    }
+}
